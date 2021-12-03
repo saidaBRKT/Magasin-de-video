@@ -1,38 +1,4 @@
-#list2
-{
-        display: flex;  
-}
-#list2 li
-{      
-        font-family: Arial, Helvetica, sans-serif;
-        list-style-type: none;
-        display: inline;
-        font-size: 20px;
-        
-}
-#list2 a:link
-{
-        color: black;
-        text-decoration: none;
-}
- #list2 a:hover
- {
-color: darkorange;
-text-decoration: underline;
- }
-
-
- .slash
- {
-         padding:0px 30px;
- }
-
- #para
+#para
  {
          width: 50%;
  }
-.cont
-{
-        display: flex;
-        align-content: center;
-}
