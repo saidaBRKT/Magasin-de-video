@@ -1,32 +1,38 @@
-*
+#list2
 {
-        margin: 0px;
-        padding: 0px;
+        display: flex;  
+}
+#list2 li
+{      
         font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav{
-        display: flex;
-}
-.nav li
-{
-        
         list-style-type: none;
-        display: inline-block;
-        text-align: center;
+        display: inline;
         font-size: 20px;
-        padding: 20px;
+        
 }
-.nav a:link
+#list2 a:link
 {
         color: black;
-        padding: 14px 25px;
         text-decoration: none;
 }
-.nav a:hover
+ #list2 a:hover
+ {
+color: darkorange;
+text-decoration: underline;
+ }
+
+
+ .slash
+ {
+         padding:0px 30px;
+ }
+
+ #para
+ {
+         width: 50%;
+ }
+.cont
 {
-        color: coral;
-        background-color: #eee4eb;
-        padding: 14px 25px;
-        text-decoration: underline;
+        display: flex;
+        align-content: center;
 }
